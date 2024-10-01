@@ -54,8 +54,8 @@ def delete_user(id):
     return jsonify({'message': 'User deleted successfully!'})
 
 #Run flask
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+    #app.run(debug=True)
 
 
 
